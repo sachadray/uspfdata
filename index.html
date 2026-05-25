@@ -114,6 +114,7 @@ td.lk a:hover{background:var(--navy3);color:#fff}
 .census-section h2::after{content:'';flex:1;height:1px;background:var(--border)}
 .census-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem}
 .clinks-2col{display:grid;grid-template-columns:1fr 1fr;gap:0 1rem}
+.census-card.wide{grid-column:1/-1}
 .census-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);
   padding:1.1rem 1.2rem;border-top:3px solid var(--gold)}
 .census-card h3{font-size:.9rem;font-weight:700;color:var(--navy);margin-bottom:.25rem}
@@ -166,8 +167,7 @@ footer a{color:var(--navy3);text-decoration:none}
     <h2>📊 Census Reports</h2>
     <div class="census-cards">
 
-      <div class="census-card">
-        <h3>Decennial Census — Wealth, Debt &amp; Taxation (1850–1932)</h3>
+      <div class="census-card wide">
         <div class="sub">Individual census volumes covering property valuations, revenue, and public indebtedness at state and county level.</div>
         <div class="clinks-2col">
         <div class="clink"><span class="clink-label">1850</span><a href="https://www.dropbox.com/scl/fi/ey097eng17clrd76ywdxn/Census-1850-Compendium-Index-Introduction.pdf?rlkey=oy32ozxg3ypz6yexb2erocxsn&st=b4xv9urj&dl=0" target="_blank" rel="noopener">Compendium — Index &amp; Introduction ↗</a></div>
