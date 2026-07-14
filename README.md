@@ -2,7 +2,7 @@
  
 A searchable, filterable catalogue of digitised US state and territorial public finance records available through the [HathiTrust Digital Library](https://www.hathitrust.org) and links to the Census Bureau's historical public finance databases.
  
-🔗 Live site: [https://sachadray.github.io/uspfdata/](https://sachadray.github.io/uspfdata/)
+🔗 Live site: [https://sachadray.github.io/uspfcatalogue/](https://sachadray.github.io/uspfcatalogue/)
  
 ## About
  
